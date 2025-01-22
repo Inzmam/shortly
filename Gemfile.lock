@@ -1,0 +1,22 @@
+PATH
+  remote: .
+  specs:
+    short_url (0.1.0)
+      base62 (~> 1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    base62 (1.0.0)
+    rake (13.2.1)
+
+PLATFORMS
+  ruby
+  x86_64-linux
+
+DEPENDENCIES
+  rake (~> 13.0)
+  short_url!
+
+BUNDLED WITH
+   2.5.18
