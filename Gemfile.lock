@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    shortly (0.1.0)
+    url_shortly (0.1.0)
       base62 (~> 1.0)
 
 GEM
@@ -16,7 +16,7 @@ PLATFORMS
 
 DEPENDENCIES
   rake (~> 13.0)
-  shortly!
+  url_shortly!
 
 BUNDLED WITH
    2.5.18

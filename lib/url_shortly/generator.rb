@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module Shortly
+module UrlShortly
   class Generator
     BASE_URL = "http://short.ly/"
 
