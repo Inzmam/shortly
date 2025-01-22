@@ -1,4 +1,4 @@
-# ShortUrl
+# Shortly
 
 A simple Ruby gem for generating short URLs using Base62 encoding.
 
@@ -7,7 +7,7 @@ A simple Ruby gem for generating short URLs using Base62 encoding.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'short_url'
+gem 'shortly'
 ```
 
 And then execute:
@@ -19,7 +19,7 @@ $ bundle install
 Or install it yourself as:
 
 ```bash
-$ gem install short_url
+$ gem install shortly
 ```
 
 ## Usage
@@ -27,17 +27,17 @@ $ gem install short_url
 Generate short URLs using short.ly domain:
 
 ```ruby
-require 'short_url'
+require 'shortly'
 
-ShortUrl.shorten('https://really-long-url.com/with/lots/of/parameters')
+Shortly.shorten('https://really-long-url.com/with/lots/of/parameters')
 # => "http://short.ly/bK92m"
 
 # Invalid URLs will raise an error
-ShortUrl.shorten('not-a-valid-url')
-# => raises ShortUrl::Error, "Invalid URL format"
+Shortly.shorten('not-a-valid-url')
+# => raises Shortly::Error, "Invalid URL format"
 
-ShortUrl.shorten('')
-# => raises ShortUrl::Error, "URL cannot be empty"
+Shortly.shorten('')
+# => raises Shortly::Error, "URL cannot be empty"
 ```
 
 ## Development

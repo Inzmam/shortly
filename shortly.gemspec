@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative "lib/short_url/version"
+require_relative "lib/shortly/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "short_url"
-  spec.version = ShortUrl::VERSION
+  spec.name = "shortly"
+  spec.version = Shortly::VERSION
   spec.authors = ["Inzamam Tahir"]
   spec.email = ["inzamamtahir@gmail.com"]
 
