@@ -46,7 +46,7 @@ After checking out the repo, run `bin/setup` to install dependencies. You can al
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/short_url.
+Bug reports and pull requests are welcome on GitHub at https://github.com/Inzmam/shortly.
 
 ## License
 
